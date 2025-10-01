@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gateway-app
+spec:
+  selector:
+    app: gateway-app
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: 80

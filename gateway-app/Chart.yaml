@@ -1,0 +1,4 @@
+apiVersion: v2
+name: gateway-app
+description: A simple web app exposed via Gateway API
+version: 0.1.0
